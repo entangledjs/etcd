@@ -1,0 +1,22 @@
+{
+  "name": "entangle-etcd",
+  "version": "0.0.1",
+  "repository": "entanglejs/entangle-etcd",
+  "description": "ETCD driver for 'entangled' objects",
+  "keywords": [
+    "entangled",
+    "entangle",
+    "etcd",
+    "driver"
+  ],
+  "dependencies": {
+    "etcd": "0.0.0",
+    "entangle-redis": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "entangle": "0.0.1"
+  },
+  "license": "MIT"
+}
