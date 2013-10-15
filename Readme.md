@@ -1,19 +1,19 @@
 
-# entangle-redis
+# entangle-etcd
 
-  Redis driver for entangle.
+  ETCD driver for entangle.
 
 ## Installation
 
 ```
-$ npm install entangle-redis
+$ npm install entangle-etcd
 ```
 
 ## Example
 
 ```js
-var Redis = require('entangle-redis');
-var object = require('entangle')(new Redis);
+var ETCD = require('entangle-etcd');
+var object = require('entangle')(new ETCD);
 var config = object('config');
 ```
 
